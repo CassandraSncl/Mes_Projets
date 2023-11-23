@@ -1,0 +1,101 @@
+html{
+    background-color: rgb(189, 188, 188);
+}
+
+body{
+    background-color: white;
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+h1{
+    margin-left:45%;
+    font-size: 40px;
+    color: #096a8e;
+}
+
+#morpion {
+    margin-left: 33%;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top:30px;
+}
+
+.case {
+    margin-left: 70%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    cursor: pointer;
+    border: black 1px solid;
+    background-image: url('vide.png');
+}
+
+.humain {
+    background-image: url('croix.png');
+}
+
+.ia {
+    background-image: url('cercle.png');
+}
+
+
+.score {
+    margin-left: 31%;
+    vertical-align: top;
+    text-align: center;
+    max-width: 50%;
+    position: fixed;
+    margin-top: 20px;
+}
+
+.score h2{
+    text-transform: uppercase;
+    color: #096a8e;
+    margin-left: 10px;
+    position: fixed;
+    margin-top: 35px;
+}
+
+p{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 120px;
+    text-transform: uppercase;
+    color: #989494;
+}
+
+#reset{
+    margin-top: 150px;
+    margin-left: 50%;
+    background-color: #096a8e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#reset:hover {
+    background-color: #024761;
+}
+
+#startGame{
+background-color: #096a8e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#startGame:hover {
+    background-color: #024761;
+}
+
+#choix{
+    margin-left: 35%;
+}

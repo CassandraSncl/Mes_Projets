@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Morpion</h1>
+
+  <label id ="choix" for="firstPlayer">Choisir le premier joueur :</label>
+  <select id="firstPlayer">
+    <option value="humain">Humain</option>
+    <option value="ia">IA</option>
+  </select>
+  <button id="startGame">Commencer la partie</button>
+  <br>
+
+  <div id="morpion">
+    <div class="case" id="0"></div>
+    <div class="case" id="1"></div>
+    <div class="case" id="2"></div>
+    <div class="case" id="3"></div>
+    <div class="case" id="4"></div>
+    <div class="case" id="5"></div>
+    <div class="case" id="6"></div>
+    <div class="case" id="7"></div>
+    <div class="case" id="8"></div>
+  </div>
+
+  <div class="score">
+    <h2>Score</h2>
+    <p>Joueur 1 (croix) : <span id="playerScore">0</span></p>
+    <p>Joueur 2 (rond) : <span id="computerScore">0</span></p>
+    <p>Matchs nuls : <span id="matchNuls">0</span></p>
+
+  </div>
+
+  <button id="reset">Réinitialiser</button>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="morpion.js"></script>
+</body>
+</html>
