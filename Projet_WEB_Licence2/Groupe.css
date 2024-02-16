@@ -1,0 +1,186 @@
+html{
+	background-color: #1C1C1C;
+
+}
+
+body{
+	color: white;
+	margin: 30px;
+	font-family: serif;
+	font-size:17px;
+	text-align: justify;
+}
+
+h1{
+	background-position: -50px -50px;
+	background-image: url(photos/baniere_ours.jpg);
+	color: white;
+}
+
+h2{
+	color: white;
+	font-size:30px;
+	text-decoration: underline;
+	
+}
+
+p{
+	width: 95%;
+	max-width: 3000px;	
+}
+
+
+
+.img1{
+	float: left;
+	margin-right: 30px;
+	margin-left: 50px;
+	width: 600px;
+	height: 450px;
+	border-radius: 10px;
+	background-color: BLACK;
+}
+
+.img2{
+	float: right;
+	margin-right: 30px;
+	margin-left: 50px;
+	width: 500px;
+	height: 350px;
+	background-color: BLACK;
+	border-radius:10px;
+}
+
+.img3{
+	float: left;
+	margin-right: 30px;
+	margin-left: 50px;
+	width: 450px;
+	height: 600px;
+	background-color: BLACK;
+	border-radius:10px;
+}
+
+.img4{
+	float: left;
+	margin-right: 30px;
+	margin-left: 50px;
+	width: 600px;
+	height: 450px;
+	background-color: BLACK;
+	border-radius:10px;
+}
+.img5{
+	float: left;
+	margin-right: 30px;
+	margin-left: 50px;
+	width: 450px;
+	height: 300px;
+	border-radius: 10px;
+	background-color: BLACK;
+}
+
+.img6{
+	float: left;
+	margin-right: 30px;
+	margin-left: 50px;
+	margin-top: 130px;
+	width: 600px;
+	height:450px;
+	border-radius: 10px;
+	background-color: BLACK;
+}
+
+
+.ul1 {
+  padding: 0;
+  width: 100%;
+}
+
+.li1 {
+  display: inline;
+}
+
+.alist {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  text-align: center;
+  line-height: 3;
+  color: white;
+}
+
+.alist_base {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  background : #6E6E6E; 
+}
+
+.li1:last-child .alist {
+  margin-right: 0;
+}
+
+.alist:link, .alist:visited, .alist:focus {
+  background:  #2E2E2E ;
+}
+
+.alist:hover {
+  background: #424242;
+}
+
+.alist:active {
+  background: #848484;
+  color: white;
+}
+
+
+.tab1{
+	border-collapse: collapse;
+	margin-left: 55%;
+	
+}
+
+.tr1{
+	border: 1px white solid;
+	padding: 10px;
+	
+}
+
+.th1{
+	border: 1px white solid;
+	padding: 10px;
+	background-color:#424242;
+}
+
+
+.lippu{
+	margin-left: 46%;
+	width: 50%;
+	max-width: 900px;
+	
+}
+
+.malais{
+	margin-left: 46%;
+	max-width: 55%;
+	width:780px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.panda{
+	margin-top: 100px;
+}
+
+.lunettes{
+	padding-top: 5px; 
+	margin-left: 46%;
+	width: 50%;
+	max-width: 900px;
+}

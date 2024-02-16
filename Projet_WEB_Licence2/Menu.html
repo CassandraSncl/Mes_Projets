@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Espèces d'ours</title>
+  <style>
+
+html{
+	background-color:black ;
+	background-image:url(photos/FF.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:90%;
+	max-width:2000px;
+	min-width:2000px;
+	
+}
+
+body {
+	font-family: serif;
+	margin: auto;
+	padding: 0 ;
+	padding-top: 5px;
+	margin: 0;
+	position: absolute;
+	width:100%;
+	height:auto;
+
+}
+
+.header-animaux {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 	5px;
+  background-color: #BDBDBD;
+  color:black;
+  opacity:0.8;
+  
+}
+
+h1{
+	text-align:center;
+	font-size: 25px;
+	font-weight: bold;
+	margin:  auto;
+	margin-right: 20%;
+	
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.account {
+  width: 20%;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.account img {
+  border:grey solid 1px;
+  width: 80%;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.container img:hover {
+   transform: scale(1.2);
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 25px;
+  color:white
+
+}
+
+.styled2{
+	border: 0;
+	color: black;
+	background-color: #BDBDBD;
+	font-size: 1rem;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	opacity:0.8;
+}
+.styled2:hover{
+	background-color:grey;
+}
+
+
+
+
+  </style>
+</head>
+  <header class="header-animaux">
+  
+  <h1  >LES ESPECES D'OURS INSOLITES</h1>
+  
+  <a href="Page_Accueil.html" ><button class="favorite styled2" type="button"> Page d'accueil</button></a>
+  <a href="contact.html" ><button class="favorite styled2" type="button"> Contact</button></a>
+
+</header>
+
+  <div class="container">
+  <div class="account">
+    <a href="Gilibert.html"><img src="ours_lunette/oursL.jpg" alt="Account 1"></a>
+    <h3>L’ours à lunettes</h3>
+  </div>
+  <div class="account">
+   <a href="Rae.html"> <img src="ours_malai/oursC.jpg" alt="Account 2"></a>
+    <h3>L’ours malais </h3>
+  </div>
+  <div class="account">
+    <a href="Senecaille.html"><img src="Ours_lippu/oursLp.jpg" alt="Account 3"></a>
+    <h3>L’ours lippu</h3>
+  </div>
+  <div class="account">
+    <a href="Bransolle.html"><img src="panda/panda.jpg" alt="Account 4"></a>
+    <h3>Le panda géant</h3>
+  </div>
+</div>
+
+</html>
