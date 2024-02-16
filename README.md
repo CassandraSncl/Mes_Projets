@@ -5,11 +5,14 @@ Licence 2:
 - Projet de groupe en base de données / Sciences des données. 
 Nous avons, sur notre source de données, éxécutés des requêtes SQL, puis visualisé avec des graphiques en R nos résultats.
 - Projet WEB en groupe:
-Nous devions créer un site internet. Nous avions décidé de prendre les ours comme sujet principal.
+Nous devions créer un site internet (html/css).
 
 Licence 3: 
 - Morpion en JQuery. 
 Le but était de jouer contre un ordinateur, et donc que celui-ci gagne tout le temps. 
+
+- Site internet en programmation WEB:
+Utilisation de html, CSS, PHP, Wamp, javaScript (ajax, jquery), paiement factice avec Stripe, système de chat,...
 
 - Projet de groupe en Sciences des données:
 Nous devions choisir une source de données parlant du réchauffement climatique, puis faire des graphiques et des interprétations sur les résultats obtenus.
