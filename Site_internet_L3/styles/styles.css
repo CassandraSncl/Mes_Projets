@@ -1,0 +1,323 @@
+html{
+    background-color: rgb(193, 191, 191);
+    
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/** --------------------- Nav bar ------------------ **/
+.wrapper {
+    position: fixed;
+    top: 10%;
+    right: 10px;
+    height: 100%;
+    padding: 20px;
+    width: 200px;
+}
+
+.wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbarItem a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+#Bonjour {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.acc {
+    color: white;
+    text-decoration: none;
+    word-spacing: 0;
+}
+
+header.head {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.navbarItem {
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+    background-color: #707070;
+    list-style: none;
+}
+
+a.navbarItem{
+    text-decoration: none;
+    color: white;
+}
+
+#titre {
+    flex: 1 40rem;
+    margin: 15px;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+/* -------------- fin nav bar ----------------*/
+
+
+#article{
+    text-decoration: none;
+    padding: 10px;
+}
+
+#logo {
+    width: 100px; /* Ajustez la largeur en fonction de vos besoins */
+    height: auto; /* Cela maintient le rapport hauteur-largeur et ajuste automatiquement la hauteur */
+    margin-left: 10px; /* Espacement entre le logo et le titre */
+    position: left;
+}
+
+
+.panier{
+    margin-left: 20px;
+    color: white;
+    font-size:15px;
+    background-color: rgb(133, 133, 133);
+    margin-top: 50%;
+}
+
+
+h2{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: grey;
+    margin: -5px;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.classe{
+    margin-left: 85%;
+    color: white;
+    font-size:15px;
+    background-color: rgb(133, 133, 133);
+    margin-top: 30%;
+}
+
+.Client{
+    color: white;
+    font-size:15px;
+    background-color: rgb(133, 133, 133);
+    margin-left: 85%;
+}
+
+img{
+    width:150px;
+    height: auto;
+}
+
+.contact{
+    margin-left: 5%;
+    padding-bottom: 10px;
+}
+
+.list{
+    margin-left: 50px;;
+}
+
+.conteneur_contact{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.nv{
+    margin-left: 45%;
+}
+
+.nv a{
+    text-decoration: none;
+    color: #9b7c02;
+}
+
+#expedition{
+    margin-top: 20px;
+    border-color: rgb(49, 49, 49);
+    border-style: solid;
+    border-width: 3px;
+    font-style: italic;
+    text-align: center;
+}
+
+.adresse{
+    font-style: italic;
+    text-align: center;
+}
+
+.validation-message {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#marge{
+    margin-left: 10px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+/* Chat */
+#chat-window {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    border: 2px solid #333; /* Couleur de la bordure */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e3dfdf; /* Couleur d'arrière-plan */
+}
+
+#chat-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(55, 55, 55);
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+#chat-body {
+    max-height: 200px ;/* Hauteur maximale de la fenêtre de chat pour défilement */
+    overflow-y: auto; /* Ajouter une barre de défilement si nécessaire */
+    font-size: 17px;
+}
+
+#message-input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #858785; /* Couleur de fond du bouton */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #3b3b3b; /* Couleur de fond du bouton au survol */
+}
+
+
+/*Connexion*/
+.container-connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formNV {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin-left: 10%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3b3b3b;
+    color: white;
+    cursor: pointer;
+    width: 15%;
+    align-items: center;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(149, 149, 148);
+}
